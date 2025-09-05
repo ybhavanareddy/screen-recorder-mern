@@ -3,7 +3,7 @@
 [![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)](https://react.dev/)  
 [![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)](https://nodejs.org/)  
 [![Express](https://img.shields.io/badge/API-Express-black?logo=express)](https://expressjs.com/)  
-[![Postgres](https://img.shields.io/badge/Database-PostgreSQL-blue?logo=postgresql)](https://www.postgresql.org/)  
+
 [![Vercel](https://img.shields.io/badge/Deploy-Frontend-black?logo=vercel)](https://vercel.com/)  
 [![Render](https://img.shields.io/badge/Deploy-Backend-purple?logo=render)](https://render.com/)  
 
