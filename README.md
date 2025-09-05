@@ -21,8 +21,8 @@ Deployed on **Vercel (frontend)** and **Render (backend)**.
 
 ## 🚀 Live Demo
 
-- **Frontend:** [https://your-frontend.vercel.app](https://your-frontend.vercel.app)  
-- **Backend API:** [https://your-backend.onrender.com](https://your-backend.onrender.com)  
+- **Frontend:** https://screen-recorder-mern.vercel.app/
+- **Backend API:** https://screen-recorder-mern-1.onrender.com 
 
 ---
 
@@ -38,12 +38,11 @@ Deployed on **Vercel (frontend)** and **Render (backend)**.
 - Node.js + Express
 - Multer (file uploads)
 - Sequelize ORM
-- SQLite (local dev) / PostgreSQL (production)
+- SQLite (local dev)
 
 **Deployment**
 - Vercel (Frontend)
-- Render (Backend + Postgres)
-- (Optional) AWS S3 for persistent file storage
+- Render (Backend)
 
 ---
 
@@ -64,7 +63,7 @@ Deployed on **Vercel (frontend)** and **Render (backend)**.
 - [Node.js](https://nodejs.org/) (v18+ LTS recommended)  
 - [Git](https://git-scm.com/)  
 - Chrome browser (required for tab capture)  
-- (Optional) Docker or PostgreSQL for database  
+  
 
 ### Clone the Repo
 ```bash
@@ -98,13 +97,12 @@ npm run dev             # runs on http://localhost:5173
   
   Build Command = npm install.
   
-  Start Command = npm start.
+  Start Command = node src/server.js.
   
   Add Environment Variables:
   
   CORS_ORIGIN=https://your-frontend.vercel.app
   
-  DATABASE_URL=... (from Render Postgres)
   
 ### Frontend (Vercel)
 
@@ -131,7 +129,6 @@ npm run dev             # runs on http://localhost:5173
 ### 🔒 Known Limitations
 
 Render’s free filesystem is ephemeral → uploaded files may be lost on redeploy.
-✅ For production, use S3 (AWS, Cloudflare R2, etc.) or Render Persistent Disk.
 
 Tab + mic recording works best on Chrome (Firefox doesn’t fully support current tab audio).
 
