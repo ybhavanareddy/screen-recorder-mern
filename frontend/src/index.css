@@ -1,0 +1,16 @@
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; }
+body { margin: 0; background: #0b1020; color: #e7eaf6; }
+.container { max-width: 900px; margin: 40px auto; padding: 0 16px; }
+h1, h2 { margin: 8px 0 16px; }
+.controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+.controls input { padding: 8px 10px; border-radius: 8px; border: 1px solid #334; background: #11172a; color: #e7eaf6; }
+button { padding: 8px 12px; border-radius: 10px; border: 1px solid #334; background: #141b34; color: #fff; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+.timer { padding: 6px 10px; background: #141b34; border-radius: 8px; border: 1px solid #334; font-weight: 600; }
+.timer.limit { color: #ffb3b3; }
+.status { margin: 10px 0; padding: 8px 10px; background: #132037; border: 1px solid #2a3a67; border-radius: 8px; }
+.preview { margin-top: 12px; }
+.actions { display: flex; gap: 10px; margin-top: 8px; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border-bottom: 1px solid #2a355e; padding: 10px; vertical-align: top; }
+.link { color: #9ec1ff; }
